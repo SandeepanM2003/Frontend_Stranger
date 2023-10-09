@@ -1,0 +1,25 @@
+{
+  "short_name": "Pigeon",
+  "name": "Send and receive anonymous messages!",
+  "icons": [
+    {
+      "src": "pigeonLogo.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "pigeonLogo.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "pigeonLogo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "rgb(22, 130, 202)",
+  "background_color": "#ffffff"
+}

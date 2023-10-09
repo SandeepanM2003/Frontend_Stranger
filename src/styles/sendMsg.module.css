@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  max-width: 700px;
+  flex-direction: column;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  padding: 40px;
+  margin: 40px auto;
+}
+.form textarea{
+  width: 100%;
+  font-size: 18px;
+  padding: 20px;
+  box-sizing: border-box !important;
+  margin-bottom: 20px;
+  border: 2px solid rgb(22, 130, 202);
+  border-radius: 10px;
+}
+
+.form button{
+  width: 100%;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(22, 130, 202);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.form button:hover{
+  background-color: white;
+  color: rgb(35, 112, 163);
+  border: 2px solid;
+}
+
+@media only screen and (max-width: 1200px){
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+/*Big smartphones [426px -> 600px]*/
+  .form{
+    margin:20px;
+  }
+}
+@media only screen and (max-width: 425px){
+/*Small smartphones [325px -> 425px]*/
+  .form{
+    margin:20px;
+  }
+}
